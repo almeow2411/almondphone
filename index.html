@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="home-page">
+        <div id="second-page-left-widget" class="custom-widget-container">
+            <div class="widget-circle-uploader">
+                <img id="widget-image-3" src="https://i.postimg.cc/qRqpK5kP/anime-avatar.jpg" class="editable-image" title="Click to change image">
+            </div>
+            <div id="second-page-bubble" class="widget-bubble editable-text" contenteditable="true">Click to edit text</div>
+            <div id="new-bubbles-container">
+                <div id="flat-capsule-bubble" class="widget-bubble editable-text" contenteditable="true">Editable</div>
+                <div id="circular-bubble" class="widget-bubble editable-text" contenteditable="true">Word</div>
+            </div>
+        </div>
+        <div id="second-page-top-right-apps">
+            <div class="desktop-app-icon" onclick="showScreen('forum-screen')">
+                <div class="icon-bg-desktop"><img src="https://i.postimg.cc/pr0T3WfC/douban-icon.png"></div>
+                <span class="label">Circle</span>
+            </div>
+            <div class="desktop-app-icon" id="lovers-space-app-icon">
+                <div class="icon-bg-desktop"><img src="https://i.postimg.cc/d1wZ39xW/lovers-space-icon.png"></div>
+                <span class="label">Couple Space</span>
+            </div>
+            <div id="second-page-x-social-app" class="desktop-app-icon" onclick="showScreen('x-social-screen')">
+                <div class="icon-bg-desktop"><img src="https://i.postimg.cc/8P1H0vQ8/x-logo.png"></div>
+                <span class="label">X Social</span>
+            </div>
+        </div>
+        <div id="center-avatar-wrapper">
+            <div id="second-page-center-avatar" class="custom-widget-container">
+                <div class="widget-circle-uploader">
+                    <img id="widget-image-4" src="https://i.postimg.cc/qRqpK5kP/anime-avatar.jpg" class="editable-image">
+                </div>
+            </div>
+            <div id="avatar-subtitle" class="editable-text" contenteditable="true">Click to edit text</div>
+            <div class="corner-bubble editable-text" id="bubble-top-left" contenteditable="true">Top Left</div>
+            <div class="corner-bubble editable-text" id="bubble-top-right" contenteditable="true">Top Right</div>
+            <div class="corner-bubble editable-text" id="bubble-bottom-left" contenteditable="true">Bottom Left</div>
+            <div class="corner-bubble editable-text" id="bubble-bottom-right" contenteditable="true">Bottom Right</div>
+        </div>
+        <div id="new-custom-widget">
+            <div id="new-widget-header">
+                <div id="widget-month-display" class="editable-text" contenteditable="true">12</div>
+                <img id="new-widget-avatar" src="https://i.postimg.cc/qRqpK5kP/anime-avatar.jpg" class="editable-image">
+            </div>
+            <div class="new-widget-text editable-text" contenteditable="true">Editable text 1</div>
+            <div class="new-widget-divider"></div>
+            <div class="new-widget-text editable-text" contenteditable="true">Editable text 2</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
